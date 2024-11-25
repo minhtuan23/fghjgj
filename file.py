@@ -40,7 +40,7 @@ def react_to_post(post_url, reaction="like"):
     else:
         like_button.click()
 
-    time.sleep(2)  # Đợi phản hồi từ Facebook
+    time.sleep(2)  # Đợi phản hồi từ Facebook      
 
 # Sử dụng
 if __name__ == "__main__":
